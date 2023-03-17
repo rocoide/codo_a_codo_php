@@ -7,7 +7,7 @@
     <title>Document</title>     <!-- titulo de la pestaña del navegador -->
 </head>
 <body>
-    <img src="https://th.bing.com/th/id/OIP.MmbXpZE-N7eqhgm24FXF4gHaEK?w=258&h=180&c=7&r=0&o=5&pid=1.7" alt="texto en caso de que no carga la imagen, el navegador puede tener en cuenta las palabras claves">
+    <img src="https://th.bing.com/th/id/OIP.MmbXpZE-N7eqhgm24FXF4gHaEK?w=258&h=180&c=7&r=0&o=5&pid=1.7" alt="texto en caso de que no cargue la imagen, el navegador puede tener en cuenta las palabras claves para las busquedas por internet">
     <!--withd="50%" es tamaño relativo-->
     <!--withd="50px" es tamaño absoluto-->
 
@@ -18,6 +18,21 @@
     <a href="facebook.com" target="_parent">parent</a>    <!-- target _parent abre la pagina en la misma pestaña-->
     <a href="facebook.com" target="_self">self</a>      <!-- target _self abre la pagina en la misma pestaña-->
     <a href="facebook.com" target="_soft">soft</a>      <!-- target _soft abre la pagina -->
+
+
+
+                <!-- nos permite usar componente para enviar la infomacion, un formulario-->
+    <form action="">        <!-- action indica a donde se va a enviar la informacion-->
+        <input type="text">                     <!-- los input son por donde podremos ingresar informacion al formulario-->
+
+        <label for="nombre">nombre</label>      <!-- la etiqueta (label) se relaciona con el input mediante el for y el id del input-->
+        <input type="text" id="nombre">         <!-- los input son por donde podremos ingresar informacion al formulario-->
+
+        <input type="number">                   
+
+        <input type="submit">                   <!-- boton para enviar los datos del formulario-->
+    </form>
+
 
     <h1>hello world!</h1>
 </body>
