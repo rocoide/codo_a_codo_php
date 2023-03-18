@@ -4,7 +4,7 @@
     <meta charset="UTF-8">      <!-- juego de caracteres default de linux y mac -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>     <!-- titulo de la pestaña del navegador -->
+    <title>portafolio</title>     <!-- titulo de la pestaña del navegador -->
 </head>
 <body>
     <img src="https://th.bing.com/th/id/OIP.MmbXpZE-N7eqhgm24FXF4gHaEK?w=258&h=180&c=7&r=0&o=5&pid=1.7" alt="texto en caso de que no cargue la imagen, el navegador puede tener en cuenta las palabras claves para las busquedas por internet">
@@ -22,13 +22,45 @@
 
 
                 <!-- nos permite usar componente para enviar la infomacion, un formulario-->
-    <form action="">        <!-- action indica a donde se va a enviar la informacion, si esta vacio solo recagar la pagina-->
+    <form action="" method="post">        <!-- action indica a donde se va a enviar la informacion-->
+                    <!-- el metodo post envia los datos mediante la url-->
         <input type="text">                     <!-- los input son por donde podremos ingresar informacion al formulario-->
 
         <label for="nombre">nombre</label>      <!-- la etiqueta (label) se relaciona con el input mediante el for y el id del input-->
         <input type="text" id="nombre">         <!-- los input son por donde podremos ingresar informacion al formulario-->
 
         <input type="number">                   
+
+        <input type="submit" value="omelet">                   <!-- boton para enviar los datos del formulario-->
+    </form>
+
+
+    <form action="" method="get">        <!-- action indica a donde se va a enviar la informacion, si esta vacio solo recagar la pagina-->
+            <!-- el metodo get NO envia los datos mediante la url-->                
+        
+        <h2>nombre</h2>
+        <input type="text" placeholder="nombre">            <!-- el placeholder son las letras de agua sobre el recuadro-->
+        <input type="text" placeholder="nombre" value="">   <!-- el value setea el valor por defecto al entrar a la pagina-->
+        <input type="text" placeholder="nombre" disabled>   <!-- el disable evita que podamos modificar el valor del input-->
+
+        <br>        <!-- el br sirve para hacer un salto de linea, no se utiliza mas, se modifica desde css los saltos de linea-->
+
+        <label for="">paises</label>
+        <select name="" id="">          <!-- el input select condiciona las opciones que puede seleccionar el usuario-->
+
+            <option value="">angola</option>
+            <option value="">mexico</option>
+            <option value="">canada</option>
+            <option value="">rusia</option>
+
+        </select>
+
+        <h2>ingrese un comentario</h2>
+        <!-- se usa cuando el usuario tiene que enviar comentarios-->
+        <textarea name="" id="" cols="30" rows="10">        
+
+        </textarea>
+
 
         <input type="submit" value="omelet">                   <!-- boton para enviar los datos del formulario-->
     </form>
