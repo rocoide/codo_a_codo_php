@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portafolio</title>     <!-- titulo de la pestaña del navegador -->
+
+    <link rel="stylesheet" href="style.css">         <!-- rel es la relacion que hay con el linj y href es la referencia hacia el link-->
 </head>
+
+
 <body>
     <img src="https://th.bing.com/th/id/OIP.MmbXpZE-N7eqhgm24FXF4gHaEK?w=258&h=180&c=7&r=0&o=5&pid=1.7" alt="texto en caso de que no cargue la imagen, el navegador puede tener en cuenta las palabras claves para las busquedas por internet">
     <!--withd="50%" es tamaño relativo-->
@@ -62,7 +66,37 @@
         </textarea>
 
 
-        <input type="submit" value="omelet">                   <!-- boton para enviar los datos del formulario-->
+        <h2>comidas</h2>
+        <input type="checkbox" name="comidas"> pizza        <!-- el atributo name indican que pertenecen el mismo grupo-->
+        <input type="checkbox" name="comidas"> omelet
+        <input type="checkbox" name="comidas"> roco
+        <input type="checkbox" name="comidas"> medialunas
+
+
+        <h2>postres</h2>
+        <input type="radio" name="postres"> helado                         <!-- si los input radio no tiene el mismo name, entonces te permite seleccionar mas de una opcion-->
+        <input type="radio" name="postres"> durazno                        <!-- si el input radio no tiene el atributo name tambien te permite seleccionar mas de una opcion-->
+        <input type="radio" name="postres"> chocolate
+        <input type="radio" name="postres"> crema del cielo
+
+
+        <br>
+
+
+        <h2>rango de tolerancia</h2>
+        <input type="range" min="0" max="50" name="" id="">
+
+
+        <br>
+
+
+        <h2>nombre</h2>
+        <input type="text" required>                            <!-- required evita que se pueda enviar el formulario sin completar este campo-->
+        
+        <label for="">email</label>
+        <input type="email">                            <!-- el input email te permite enviar el campo en blanco pero no informacion que no contenga un @ y un @ sin letras posteriores-->
+
+        <input type="submit" value="omelet">                    <!-- boton para enviar los datos del formulario-->
     </form>
     
 
