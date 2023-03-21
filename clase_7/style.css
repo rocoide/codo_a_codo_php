@@ -1,0 +1,27 @@
+h2{
+    color: blue;
+}
+
+/*para aplicar estilos segun el id, tratar de que no se repetin los id*/
+#primer_h2 {
+    color: red;
+}
+
+/*para aplicar estilos segun una clase, en caso de que tenga que aplicar estilos a un grupo*/
+.class_h2 {
+    color: green;
+}
+
+header{
+    color: aqua;
+}
+
+div{
+    background-color: blueviolet;
+    width: 800px;
+    height: 300px;
+}
+
+#primer_div{
+    background-color: coral;
+}
