@@ -1,15 +1,46 @@
+* {
+    margin: 0px;
+}
+
 h2{
     color: blue;
 }
 
-/*para aplicar estilos segun el id, tratar de que no se repetin los id*/
+/*se llama a un id con un ".", para aplicar estilos segun el id, tratar de que no se repetin los id*/
 #primer_h2 {
     color: red;
 }
 
-/*para aplicar estilos segun una clase, en caso de que tenga que aplicar estilos a un grupo*/
+/*se llama a la clase con un ".", para aplicar estilos segun una clase, en caso de que tenga que aplicar estilos a un grupo*/
 .class_h2 {
     color: green;
+}
+
+header{
+    width: auto;
+}
+
+#header_logo{
+    background-color: bisque;
+    color: blue;
+    width: 800px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav_menu{
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    text-decoration: dotted;
+}
+
+#main_contenido{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header{
