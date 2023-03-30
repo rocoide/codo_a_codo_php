@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*display none hace que algo desaparezca de la pantalla y pierda su posicion*/
+
 .box {
     background-color: aquamarine;
     width: 120px;
