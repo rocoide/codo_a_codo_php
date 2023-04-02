@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    height: 90px;
+    text-align: center;
+    line-height: 90px; /* Establece la altura de línea igual a la altura del contenedor */
+    display: flex; /* Utiliza flexbox para centrar verticalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+}
+
+header h1{
+    margin-left: auto;
+}
+
+header a {
+    color: aliceblue;
+    margin-right: auto;
+}
