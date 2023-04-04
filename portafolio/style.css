@@ -50,7 +50,10 @@ header div a {
     /* display: inline; */
     width: 100%;
     height: auto;
-    border: solid 10px yellow;
+    border: solid 10px rgb(219, 217, 57);
+    width: 50%; 
+    float: left; 
+    border-radius: 30%;
 }
 
 #principal {
@@ -58,11 +61,34 @@ header div a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
+    width: 100vw;
 }
 
-main div ul li {
-    display: inline;
+.inline {
+    position: relative;
+    top: 170px;
+    display: flex;
+    justify-content: flex-start; /*Justify content acomoda los elementos de una orientacion (no me acuerdo si era en X o Y) al principio del contenedor, al medio, o al final, que aplica en ambos sentidos */
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 20px;
+    color: floralwhite;
+    font-size: 160%;
+    font-weight: bolder;
+    margin-right: 5%;
+    line-height: 40px; /* Establece la altura de línea igual a la altura del contenedor */
+    display: flex; /* Utiliza flexbox para centrar verticalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
 }
+
+.central_footer{
+    width: 100vw;
+    height: auto;
+    background-color: darkcyan;
+}
+
+
 
 
 
