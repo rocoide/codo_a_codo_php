@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* position: absolut; pierde su lugar de origen y se ve por encima de otras imagenes, puedo moverlo
+position: relative; conserva su posicion de  origen, puedo moverlo */
+
+.caja1 {
+    /* la cosas que voy a mover mediante flexbox debe estar en un contenedor, display: flex me lo pone como inline block, para mover elementos siempre tengo que aplciar la porpiedad display: flexbox al padre */
+    display: flex; 
+
+    /* para poner en fila */
+    /* flex-direction: row; */
+
+    /* para poner en columna */
+    /* flex-direction: column; */
+
+    /*para poner los elementos en fila espejo (invierte el orden)*/
+    /* flex-direction: row-reverse; */
+
+    /*para poner los elementos en columna espejo (invierte el orden)*/
+    /* flex-direction: column-reverse; */
+
+    /*alinea el contenido a la izquierda*/
+    /* justify-content: start; */
+
+    /*alinea el contenido a la derecha*/
+    /* justify-content: end; */
+
+    /*alinea el contenido a al centro*/
+    /* justify-content: center; */
+
+    /*distribuye en forme equitativa los elementos en su contenedor de manera central, los espacia entre ellos, los pone bien a los costados*/
+    /* justify-content: space-between; */
+
+    /*distribuye en forme equitativa los elementos en su contenedor de manera central, los espacia entre ellos*/
+    /* justify-content: space-around; */
+
+    /*aling-items es para ajustar la verticalmente*/
+    /*justify-content es para alinear los item horizontalmente*/
+}

@@ -13,12 +13,17 @@
         <header>
             <div class="central_header central">
                 <h1 style="display: inline;"> Duarte Rodrigo Ivan</h1>
-                <a href="#">Instagram</a>
-                <a href="#">facebook</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Twitter</a>
+                <a href="#" class="ancla">Instagram</a>
+                <a href="#" class="ancla">Facebook</a>
+                <a href="#" class="ancla">LinkedIn</a>
+                <a href="#" class="ancla">Twitter</a>
             </div>
         </header>
+        <div class="subheader central">
+            <h2>¿quien soy?</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quasi nesciunt adipisci cupiditate facere quas ipsam dolorum, eaque minus quae mollitia esse fugiat neque maiores illo quaerat temporibus nostrum voluptatibus!</p>
+        </div>
         <main>
             <div class="central">
                 <div> 
@@ -35,10 +40,29 @@
             </div>
         </main>
         <footer>
-            <div class="central central_footer">
-                <h5>comuniquese conmigo 🧐</h5>
-                <form action="post">
-                    <input type="text">
+            <div id="central_footer" class="central">
+                <h3 class="subtitulo3">comuniquese conmigo 🧐</h3>
+                <br>
+                <form action="" method="post" class="formulario">
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" id="apellido" required>
+                    <br>
+                    
+                    <label for="nombre">Nombre: </label>      <!-- la etiqueta (label) se relaciona con el input mediante el for y el id del input-->
+                    <input type="text" id="nombre" required>         <!-- los input son por donde podremos ingresar informacion al formulario-->
+                    <br>
+                    
+                    <label for="nacimiento">Fecha de nacimiento: </label>
+                    <input type="date" id="nacimiento" required>                   
+                    <br>
+                    
+                    <label for="email">Direccion de mail: </label>
+                    <input type="email" id="email" required> 
+                    <br>                     <!-- los input son por donde podremos ingresar informacion al formulario-->
+
+                                                   
+
+                    <input type="submit" value="Enviar">
                 </form>
             </div>
         </footer>

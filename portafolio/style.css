@@ -20,6 +20,15 @@ header {
     align-items: center; /* Centra verticalmente el texto */
 }
 
+.subheader {
+    width: 50%; 
+    height: auto;
+    color: whitesmoke;
+    text-align: center;
+    /* display: flex; Utiliza flexbox para centrar verticalmente el texto */
+    /* align-items: center; Centra verticalmente el texto */
+}
+
 .central{
     width: 60%;
     margin-left: auto;
@@ -32,6 +41,15 @@ header {
 
 .central_main{
     height: auto;
+}
+
+.ancla:hover {
+    color: aqua;
+}
+
+.ancla:visited {
+    text-decoration-line: none;
+    text-decoration-style: none;
 }
 
 header div h1{
@@ -82,10 +100,30 @@ header div a {
     align-items: center; /* Centra verticalmente el texto */
 }
 
-.central_footer{
-    width: 100vw;
+main {
+    height: 600px;
+}
+
+#central_footer{
+    width: 60%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.subtitulo3 {
+    text-align: center;
+}
+
+footer {
+    width: 100vw;
     background-color: darkcyan;
+    height: 300px;
 }
 
 
