@@ -1,8 +1,14 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 
 header {
     background-color: blue;
@@ -14,11 +20,51 @@ header {
     align-items: center; /* Centra verticalmente el texto */
 }
 
-header h1{
+.central{
+    width: 60%;
     margin-left: auto;
-}
-
-header a {
-    color: aliceblue;
     margin-right: auto;
 }
+
+.central_header{
+    height: 90px;
+}
+
+.central_main{
+    height: auto;
+}
+
+header div h1{
+    display: inline;
+    float: left;
+}
+
+header div a {
+    color: aliceblue;
+    float: right;
+    margin-right: 2%;
+}
+
+
+#imagen{
+    /* display: inline; */
+    width: 100%;
+    height: auto;
+    border: solid 10px yellow;
+}
+
+#principal {
+    background-image: url("punk_city.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main div ul li {
+    display: inline;
+}
+
+
+
+
+

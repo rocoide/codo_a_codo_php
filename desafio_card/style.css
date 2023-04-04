@@ -10,10 +10,11 @@
 #imagen{
     width: 250px;
     height: 200px;
-    position: absolute; /* cambia la posición a relative */
-    right: 0;
-    /* top: 10px; desplaza el elemento hacia abajo en 10 píxeles */
-    left: 15px;
+    position: relative; /* cambia la posición a relative */
+    align-items: center;
+    right: 0px;
+    /* left: 15px; */
+    top: 10px; /*desplaza el elemento hacia abajo en 10 píxeles */
 }
 
 .interior {
