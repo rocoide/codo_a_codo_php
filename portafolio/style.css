@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -21,12 +23,31 @@ header {
 }
 
 .subheader {
-    width: 50%; 
+    display: flex;
+    width: 90vw; 
+    height: 20vh;
+    color: whitesmoke;
+    justify-content:space-between
+}
+
+.subheader_izquierdo {
+    width: 49%;
+    display: flex; 
     height: auto;
     color: whitesmoke;
-    text-align: center;
-    /* display: flex; Utiliza flexbox para centrar verticalmente el texto */
-    /* align-items: center; Centra verticalmente el texto */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subheader_derecho {
+    width: 49%;
+    display: flex; 
+    height: auto;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .central{
@@ -66,7 +87,7 @@ header div a {
 
 #imagen{
     /* display: inline; */
-    width: 100%;
+    width: 100vw;
     height: auto;
     border: solid 10px rgb(219, 217, 57);
     width: 50%; 
@@ -79,7 +100,7 @@ header div a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 140vh;
     width: 100vw;
 }
 
@@ -116,14 +137,27 @@ body {
     overflow-x: hidden;
 }
 
-.subtitulo3 {
-    text-align: center;
-}
-
 footer {
     width: 100vw;
     background-color: darkcyan;
-    height: 300px;
+    height: 200px;
+}
+
+#footer_titulo {
+    text-align: center;
+}
+
+#footer_contenido {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*los espacia de manera central tirandolos en los bordes*/
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
 }
 
 
