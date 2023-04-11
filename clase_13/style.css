@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+main {
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
+    overflow: hidden; /*esconde la parte de los elementos que esta en overflow*/
+}
+
+
+main:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+a {
+    text-decoration: none;
+    background-color: aqua;
+
+}
+
+/*le cambia el color luego de posicionar el mouse encima del enlaces*/
+a:hover {
+    color: black;
+    background-color: red;
+}
+
+/*elementos in line no pueden settear margin top and bottom*/
+
+
+/*cambia el color del enlace al momento de hacer click*/
+a:active {
+    color: coral;
+}
+
+
+/*el enlace adquiere otro color luego de que se clickea alguna vez sobre el*/
+a:visited {
+    color: greenyellow;
+    background-color: blueviolet;
+}
+
+
+
+h2:hover {
+    color: blue;
+}
+
+
+
+.pacman {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+
+.segundo {
+    background-color: green;
+}
+
+
+/*le cambia el color luego de posicionar el mouse encima del div*/
+.pacman:hover {
+    background-color: red;
+    display: none;    /*desaparece el elemento*/
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
