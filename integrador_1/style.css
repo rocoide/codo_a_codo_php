@@ -64,3 +64,15 @@ main {
 #button_green {
     background-color: rgb(2, 165, 2);
 }
+
+.subtitulo_centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#cartas {
+    flex-direction: row;
+    justify-content: space-around;
+}
