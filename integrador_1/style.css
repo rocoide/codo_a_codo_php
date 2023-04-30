@@ -1,6 +1,4 @@
-body {
-    overflow-x: hidden;
-}
+
 
 #sticker {
     height: 65px;
@@ -74,5 +72,26 @@ main {
 
 #cartas {
     flex-direction: row;
+    justify-content: space-around;
+}
+
+#cuerpo_carta {
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
+
+.carta_horizontal {
+    height: 410px;
+}
+
+footer {
+    background-color:darkblue;
+    height: 100px;
+}
+
+#footer_links {
+    color: white;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
 }
